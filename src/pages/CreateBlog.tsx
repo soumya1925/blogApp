@@ -2,7 +2,7 @@ import { v4 as uuid } from "uuid";
 import { useNavigate } from "react-router-dom";
 import BlogForm from "../components/blog/BlogForm";
 import { getBlogs, saveBlogs } from "../utils/localStorage";
-import { type Blog, type BlogStatus } from "../types/blog";
+import { type Blog } from "../types/blog";
 
 const CreateBlog = () => {
   const nav = useNavigate();
